@@ -413,6 +413,8 @@
 		<None Include="..\..\Config\DefaultEditor.ini" />
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
+		<ClCompile Include="..\..\Source\PuzzleEscape\PositionReport.cpp" />
+		<ClInclude Include="..\..\Source\PuzzleEscape\PositionReport.h" />
 		<None Include="..\..\Source\PuzzleEscape\PuzzleEscape.Build.cs" />
 		<ClCompile Include="..\..\Source\PuzzleEscape\PuzzleEscape.cpp" />
 		<ClInclude Include="..\..\Source\PuzzleEscape\PuzzleEscape.h" />

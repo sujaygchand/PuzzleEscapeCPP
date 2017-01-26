@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PuzzleEscape.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{20321070-2387-40DB-A72A-D7854438DC5F}</UniqueIdentifier>
+			<UniqueIdentifier>{2EBD2FED-65F7-407C-921D-35B13F979849}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PuzzleEscape.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{4331AAC0-43AD-473B-BB1C-EC94F4FEF933}</UniqueIdentifier>
+			<UniqueIdentifier>{65CCE5AB-A188-495A-BEA0-F6D01392529D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,8 +25,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PuzzleEscape">
-			<UniqueIdentifier>{C24BB4FD-54E8-49BA-86C6-06E7FCA8FD68}</UniqueIdentifier>
+			<UniqueIdentifier>{2319B313-CA48-4C52-85C6-579942742153}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\PuzzleEscape\PositionReport.cpp">
+			<Filter>Source\PuzzleEscape</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PuzzleEscape\PositionReport.h">
+			<Filter>Source\PuzzleEscape</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\PuzzleEscape\PuzzleEscape.Build.cs">
 			<Filter>Source\PuzzleEscape</Filter>
 		</None >
