@@ -1,52 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\PuzzleEscape.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{2EBD2FED-65F7-407C-921D-35B13F979849}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\PuzzleEscape.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\PuzzleEscapeEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{65CCE5AB-A188-495A-BEA0-F6D01392529D}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\PuzzleEscape">
-			<UniqueIdentifier>{2319B313-CA48-4C52-85C6-579942742153}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\PuzzleEscape\PositionReport.cpp">
-			<Filter>Source\PuzzleEscape</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\PuzzleEscape\PositionReport.h">
-			<Filter>Source\PuzzleEscape</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\PuzzleEscape\PuzzleEscape.Build.cs">
-			<Filter>Source\PuzzleEscape</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\PuzzleEscape\PuzzleEscape.cpp">
-			<Filter>Source\PuzzleEscape</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\PuzzleEscape\PuzzleEscape.h">
-			<Filter>Source\PuzzleEscape</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\PuzzleEscape\PuzzleEscapeGameModeBase.cpp">
-			<Filter>Source\PuzzleEscape</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\PuzzleEscape\PuzzleEscapeGameModeBase.h">
-			<Filter>Source\PuzzleEscape</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\PuzzleEscape.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2EBD2FED-65F7-407C-921D-35B13F979849}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PuzzleEscape.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PuzzleEscapeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{65CCE5AB-A188-495A-BEA0-F6D01392529D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PuzzleEscape">
+      <UniqueIdentifier>{2319B313-CA48-4C52-85C6-579942742153}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PuzzleEscape\PositionReport.cpp">
+      <Filter>Source\PuzzleEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PuzzleEscape\PositionReport.h">
+      <Filter>Source\PuzzleEscape</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PuzzleEscape\PuzzleEscape.Build.cs">
+      <Filter>Source\PuzzleEscape</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PuzzleEscape\PuzzleEscape.cpp">
+      <Filter>Source\PuzzleEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PuzzleEscape\PuzzleEscape.h">
+      <Filter>Source\PuzzleEscape</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PuzzleEscape\PuzzleEscapeGameModeBase.cpp">
+      <Filter>Source\PuzzleEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PuzzleEscape\PuzzleEscapeGameModeBase.h">
+      <Filter>Source\PuzzleEscape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PuzzleEscape\OpenDoor.h">
+      <Filter>Source\PuzzleEscape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PuzzleEscape\OpenDoor.cpp">
+      <Filter>Source\PuzzleEscape</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

@@ -1,9 +1,9 @@
 {
 	"Changelist" : 3249277,
 	"CompatibleChangelist" : 3195953,
-	"BuildId" : "6cb3119e-2ad5-4ff8-a553-ebf06d7cdc13",
+	"BuildId" : "820bb777-5973-4fb5-92ae-629991d3afda",
 	"Modules" : 
 	{
-		"PuzzleEscape" : "UE4Editor-PuzzleEscape-8120.dll"
+		"PuzzleEscape" : "UE4Editor-PuzzleEscape-3301.dll"
 	}
 }

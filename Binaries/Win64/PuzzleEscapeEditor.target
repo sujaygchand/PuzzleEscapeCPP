@@ -2,7 +2,7 @@
 	"TargetName" : "PuzzleEscapeEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "6cb3119e-2ad5-4ff8-a553-ebf06d7cdc13",
+	"BuildId" : "820bb777-5973-4fb5-92ae-629991d3afda",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -16,15 +16,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzleEscape-3555.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzleEscape-3301.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzleEscape-3555.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzleEscape-3301.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-PuzzleEscape-3555.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-PuzzleEscape-3301.lib",
 			"Type" : "ImportLibrary"
 		}
 	],
