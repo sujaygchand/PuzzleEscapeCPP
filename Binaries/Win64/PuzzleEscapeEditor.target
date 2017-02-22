@@ -2,7 +2,7 @@
 	"TargetName" : "PuzzleEscapeEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "820bb777-5973-4fb5-92ae-629991d3afda",
+	"BuildId" : "fca8dda2-e045-4a7f-8005-34046fd42bdc",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -16,15 +16,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzleEscape-3301.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzleEscape-5046.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzleEscape-3301.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzleEscape-5046.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-PuzzleEscape-3301.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-PuzzleEscape-5046.lib",
 			"Type" : "ImportLibrary"
 		}
 	],
@@ -156,6 +156,10 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/HoudiniEngine/HoudiniEngine.uplugin",
 			"Type" : "UFS"
 		},
 		{
