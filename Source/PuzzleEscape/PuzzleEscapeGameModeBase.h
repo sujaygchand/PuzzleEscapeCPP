@@ -13,7 +13,4 @@ class PUZZLEESCAPE_API APuzzleEscapeGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
-	
-	
-	
 };

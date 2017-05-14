@@ -27,6 +27,7 @@ void UPositionReport::BeginPlay()
 
 	UE_LOG(LogTemp, Warning, TEXT("%s is at %s"), *ObjectName, *ObjectLocation.ToString());
 
+
 	// ...
 	
 }

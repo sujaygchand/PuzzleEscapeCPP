@@ -29,6 +29,7 @@ void UGrabber::BeginPlay() {
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	if (!PhysicsHandle) { return; }
 	// If physics handle is attached
 	if (PhysicsHandle->GrabbedComponent)
 	{
@@ -41,6 +42,9 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 void UGrabber::FindPhysicsHandleComponent() {
 	///Look for the attached Physics handle
+
+	if (!PhysicsHandle) { return; }
+
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
 
 	if (PhysicsHandle == nullptr)
@@ -62,7 +66,7 @@ void UGrabber::SetupInputComponent() {
 		UE_LOG(LogTemp, Warning, TEXT("InputComponent is there"))
 
 			/// Bind the input axis
-			InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
+		InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
 		InputComponent->BindAction("Grab", IE_Released, this, &UGrabber::Release);
 	}
 	else
@@ -76,6 +80,10 @@ void UGrabber::Grab() {
 	auto HitResult = GetFirstPhysicsBodyInReach();
 	auto ComponentToGrab = HitResult.GetComponent();
 	auto ActorHit = HitResult.GetActor();
+
+	GetWorld()->GetFirstPlayerController()->GetControlledPawn()->DisableComponentsSimulatePhysics();
+
+	if (!PhysicsHandle) { return; }
 
 	// If we hit something then attach a physics handle
 	if (ActorHit)
@@ -91,6 +99,8 @@ void UGrabber::Grab() {
 }
 
 void UGrabber::Release() {
+
+	if (!PhysicsHandle) { return; }
 		// Release object
 		PhysicsHandle->ReleaseComponent();
 }
